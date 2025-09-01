@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing - zadanie 1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <style>
+        div {
+            font-family: "Roboto", sans-serif;
+            max-width: 80%;
+            margin: 20px auto;
+            font-size: 20px;
+            letter-spacing: 1px;
+        }
+
+        .cursor {
+            opacity: 0;
+            transition: 0.2s;
+        }
+
+        .cursor.active {
+            opacity: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <div><span class="text"></span><span class="cursor">|</span></div>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
