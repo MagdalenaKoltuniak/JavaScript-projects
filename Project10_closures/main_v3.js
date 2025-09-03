@@ -1,0 +1,13 @@
+const clock = () => {
+	let seconds = 0;
+
+	const timer = () => {
+		document.body.textContent = `${seconds++} sekund`;
+	};
+
+	return timer;
+};
+
+const start = clock();
+
+setInterval(start, 1000);
