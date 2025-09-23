@@ -16,4 +16,5 @@ class NumberAdd {
 	};
 }
 
+// eslint-disable-next-line no-unused-vars
 const numberAdd = new NumberAdd('button', 1, 1);
